@@ -1,0 +1,794 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* Header work  */
+/* Header One work  */
+
+/* icon before 721px  */
+
+.iconBefore721px{
+    display: none;
+}
+
+header{
+    height: 100vh;
+    width: 100wh;
+    background-color: #000;
+    background-image: url("./image/Adobe_Express_20230714_2148130.5748132244108136.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size:58% 123%;
+    /* padding-bottom: 100px; */
+}
+header .headerOne{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 30px;
+}
+
+header .headerOne h1{
+    color: #ffff;
+    font-size:x-large;
+    font-weight: 500;
+    padding-left: 60px;
+}
+
+header .headerOne .navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 40px;
+    padding-right: 50px;
+}
+
+header .headerOne ul li{
+    list-style-type: none;
+    cursor: pointer;
+}
+
+header .headerOne ul li a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.navbar li{
+    transition:  0.3s;
+}
+
+.navbar li:hover{
+    transform: translate(10px);
+}
+
+.navbar li a:hover{
+    text-transform:uppercase;
+    color: #a7a9ab;
+}
+#divBars{
+    display: none;
+    margin-right: 2%;
+    position: relative;
+    background-color: #181717;
+    padding: 30px 30px;
+    border-radius: 100%;
+    overflow: hidden;
+    z-index: 1;
+    transition: 1s;
+}
+.fa-bars {
+    color: #a7a9ab;
+}
+#divBars::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    background-color: #3849dc;
+    border-radius: 100%;
+    bottom: 0; 
+    right: 0;
+    transition: 1s;
+    z-index: -1;
+}
+#divBars:hover:before{
+    height: 100%;    
+    top: 0;   
+}
+
+/* media Quaey image */
+img[alt="listImg"]{
+    display: none;
+}
+header .headerOne .navbar ul .fa-times{
+    display: none;
+}
+
+/* Header Two Work  */
+
+.headerTwo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16.5%;
+}
+
+.headerTwo .location{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 20%;
+    display: flex;
+    gap: 10px;
+    background-color: #1e1d1d;
+    border-radius: 0px 200px 200px 0px;
+}
+.headerTwo .location h4{
+    color: #fff;
+    font-weight: 500;
+    padding-left: 60px;
+}
+
+.headerTwo .location .iconl{
+    background-color: #a7a9ab;
+    border-radius: 200px;
+    padding: 20px;
+    margin-left: 40px;
+}
+.headerTwo .location .fa-globe{
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.passion {
+    display: grid;
+    padding-right: 18%;
+}
+
+/* img[alt="arrow"]{
+    height: 35px;
+    width: 35px;
+    position: relative;
+    bottom: 65px;
+    transform: rotate(180deg);
+} */
+.headerTwoImg{
+    height: 200px; 
+    width: 200px;
+    border-radius: 100px;
+    position: absolute;
+    top: 35%;
+    right: 43%;
+    overflow: hidden;
+}
+.headerTwoImg img{
+    object-fit: cover;
+    height: 200px; 
+    width: 200px;
+}
+
+.passion h1{
+    color: #fff;
+    position: relative;
+    bottom: 20px;
+    position: relative;
+    left: 50%;
+}
+
+.marqee h1{
+    font-size: 11rem;
+    color: #fff;
+}
+
+
+/* About section work */
+
+.about{
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    height: auto;
+    width:75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.about .workDefine h1{
+    margin: 0;
+    padding: 0;
+    font-size: xx-large;
+    font-weight: 500;
+    line-height: 3rem;
+}
+
+.about .workdefineTwo h4{
+    font-weight: 500;
+    line-height: 2rem;
+    width: 80%;
+}
+
+/* .about .workdefineTwo button span{
+    margin: 0;
+    padding: 0;
+} */
+
+.about .workdefineTwo .workdefineTwoDiv #aboutBtn{
+    position: absolute;
+    /* top: 150%; */
+    margin-top: 35px;
+    background-color: #181717;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    padding: 80px 70px;
+    border-radius: 200px 200px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: #fff;
+    /* position: relative;
+    top: 100px; */
+    transition: 1s;
+    overflow: hidden;
+}
+
+/* hover work  */
+
+.about .workdefineTwo .workdefineTwoDiv #aboutBtn::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    background-color: #3849dc;
+    border-radius: 200px 200px;
+    bottom: 0; 
+    right: 0;
+    transition: 1s;
+    z-index: -1;
+}
+
+.about .workdefineTwo .workdefineTwoDiv #aboutBtn:hover:before{
+    height: 100%;    
+    top: 0;   
+}
+
+/* Project work  */
+
+.project{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 20%;
+}
+
+.project_div_section h5{
+    color: #c8b7b7;
+    font-weight: 400;
+    padding-bottom: 40px;
+    padding-left: 120px;
+}
+.project_div{
+    /* margin-top: 1px; */
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #e7e7e7;
+    display: flex;
+    border-bottom: 1px solid #e7e7e7;
+    align-items: center;
+    justify-content: center;
+    gap: 40%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.project_div h1{
+    color: #181717;
+    font-size: 6rem;
+    font-weight: 400;
+}
+
+.project_div h4{
+    color: #181717;
+    /* font-size: 6rem; */
+    font-weight: 400;
+}
+
+.project_btn{
+    position: absolute;
+    margin-left: 33%;
+    margin-top: 5%;
+    margin-bottom: 50%;
+    /* top: 150%; */
+    background-color: #181717;
+    color: #fff;
+    border: 2px solid #181717;
+    text-decoration: none;
+    align-items: center;
+    padding: 30px 60px;
+    border-radius: 200px 200px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: #fff;
+    /* position: relative;
+    top: 100px; */
+    transition: 1s;
+    overflow: hidden;
+    z-index: 1;
+}
+
+
+/* .project_btn{
+    text-decoration: none;
+    color: #181717;
+    padding-left: 13px;
+    align-items: center;
+} */
+
+/* Project hover work */
+
+.project_btn::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    background-color: #3849dc;
+    border-radius: 200px;
+    bottom: 0; 
+    right: 0;
+    transition: 1s;
+    z-index: -1;
+}
+
+.project_btn:hover:before{
+    height: 100%;    
+    top: 0;   
+}
+
+/* .project_btn a:hover{
+    color: #fff;
+} */
+
+
+.invisible{
+    width: 400px;
+    height: 350px;
+    border: 1px solid #181717;
+    display: none;
+    position: absolute;
+    transition: 0.100s;
+    border-radius: 8px;
+    background-color: #181717;
+    transition: 3s;
+}
+
+.invisible img[alt="img1"]{
+    position: absolute;
+    top: 75px;
+    left: 12%;
+    height: 200px;
+    width: 300px;
+}
+
+.invisibleBTn{
+    background-color: #3849dc;
+    color: #fff;
+    text-decoration: none;
+    padding: 30px 25px;
+    border-radius: 150px;
+    position: absolute;
+    left: 40%;
+    top: 130px;
+    transition: 2s;
+}
+
+.invisibleBTn:hover{
+    background-color: #181717;
+}
+
+/* invisible two work  */
+#invisibleTwoId{
+    /* display: none; */
+    background-color: #e7e7e7;
+    border-color: transparent;
+}
+#invisiblebtnTwoId{
+    transition: 1s linear
+}
+#invisibleFourId{
+    background-color: #e7e7e7;
+    border: transparent;
+}
+
+
+/* Project Section work after 1050 px */
+
+.after1050px{
+    display: none;
+    /* width: 200%; */
+}
+
+.after1050px img[alt="img2"]{
+    height: 200px;
+    width: 300px;
+    position: relative;
+    top: 15px;
+    /* left: 13%;
+    top: 70px; */
+}
+
+/* After one div work  */
+.afterOne{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+/* one div  */
+#afterOneId{
+    /* width: 400px;
+    height: 350px; */
+    padding: 70px 50px;
+    border: 1px solid #181717;
+    /* position: absolute; */
+    transition: 0.100s;
+    border-radius: 8px;
+    background-color: #181717;
+}
+
+#afterBtnOne{
+    /* position: absolute;
+    margin-top: 5.5%;
+    left: 26%; */
+    position: relative;
+    left: 35%;
+    bottom: 110px;
+    background-color: #3849dc;
+    color: #fff;
+    text-decoration: none;
+    padding: 30px 25px;
+    border-radius: 150px;
+    transition: 1s;
+}
+
+#afterBtnOne:hover{
+    background-color: #181717;
+}
+
+/* Two div  */
+#afterTwoId{
+    /* width: 400px;
+    height: 350px; */
+    padding: 70px 50px;
+    border: 1px solid #a7a9ab;
+    /* position: absolute; */
+    transition: 0.100s;
+    border-radius: 8px;
+    background-color: #a7a9ab;
+}
+
+#afterBtnTwo{
+    /* position: absolute;
+    margin-top: 5.5%;
+    right: 25%; */
+    position: relative;
+    left: 35%;
+    bottom: 110px;
+    background-color: #3849dc;
+    color: #fff;
+    text-decoration: none;
+    padding: 30px 25px;
+    border-radius: 150px;
+    transition: 1s;
+}
+
+#afterBtnTwo:hover{
+    background-color: #181717;
+}
+
+.afterContent h1{
+    color: #181717;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.h1AndSpan{
+    display: flex;
+    gap: 30%;
+    margin-top: 10px;
+}
+
+.afterContent h4{
+    color: #181717;
+    font-weight: 400;
+}
+
+/* After two div work  */
+
+.afterTwo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 10%;
+}
+
+/* One div  */
+#afterTwoOneId{
+    /* width: 400px;
+    height: 350px; */
+    padding: 70px 50px;
+    border: 1px solid #a7a9ab;
+    /* position: absolute; */
+    transition: 0.100s;
+    border-radius: 8px;
+    background-color: #a7a9ab;
+}
+
+#afterTwoOneBtn{
+    /* position: absolute;
+    margin-top: 5.5%;
+    left: 26%; */
+    position: relative;
+    left: 35%;
+    bottom: 110px;
+    background-color: #3849dc;
+    color: #fff;
+    text-decoration: none;
+    padding: 30px 25px;
+    border-radius: 150px;
+    transition: 1s;
+}
+
+#afterTwoOneBtn:hover{
+    background-color: #181717;
+}
+
+/* Two div  */
+#afterTwoTwoId{
+    /* width: 400px;
+    height: 350px; */
+    padding: 70px 50px;
+    border: 1px solid #181717;
+    /* position: absolute; */
+    transition: 0.100s;
+    border-radius: 8px;
+    background-color: #181717;
+}
+
+#afterTwoTwoBtn{
+    position: relative;
+    left: 35%;
+    bottom: 110px;
+    /* position: absolute; */
+    /* margin-top: 5.5%; */
+    background-color: #3849dc;
+    color: #fff;
+    text-decoration: none;
+    padding: 30px 25px;
+    border-radius: 150px;
+    transition: 1s;
+}
+
+#afterTwoTwoBtn:hover{
+    background-color: #181717;
+}
+
+/* Footer section work */
+
+footer{
+    background-color: #181717;
+    /* padding-top: 5%; */
+    /* width: auto; */
+    /* height: 100vh; */
+}
+
+
+.footerdivOne{
+    /* background-color: #fff; */
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #333232;
+    padding-top: 2%;
+}
+.footerContent{
+    display: inline-flex;
+    align-items: center;
+    width: 70%;
+    padding-bottom: 5%;
+}
+.footerContent img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    position: relative;
+    left: 100px;
+}
+
+.footerContent h1{
+    padding-top: 75px;
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.footerContent h1 span{
+    padding-left: 15%;   
+}
+
+#getInTouch{
+    position: absolute;
+    /* top: 365%; */
+    right: 22%;
+    margin-top: 60px;
+    /* margin-right: 20%; */
+    background-color: #3849dc;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 80px 45px;
+    border-radius: 200px 200px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: #fff;
+    transition: 1s;
+    overflow: hidden;
+    border-color: #181717;
+    z-index: 1;
+}
+/* #getInTouch a{
+    text-decoration: none;
+    align-items: center;
+    font-size: 15px;
+    color: #fff;
+} */
+
+/* Hover Work  */
+
+#getInTouch::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    background-color: #181717;
+    border-radius: 200px 200px;
+    bottom: 0; 
+    right: 0;
+    transition: 1s;
+    z-index: -1;
+}
+
+
+#getInTouch:hover::before{
+    height: 100%;    
+    top: 0; 
+}
+
+/* contact work  */
+
+.contact{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 30px;
+    margin-left: 13%;
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+
+.contact_box{
+    width: auto;
+    height: auto;
+    position: relative;
+    z-index: 1;
+    border: 1px solid #333232;
+    padding: 25px 55px;
+    border-radius: 80px 80px;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: transparent;
+    transition: 1s;
+}
+
+.contact_box h3{
+    color: #fff;
+    font-weight: 400px;
+    transition: 1.5s;
+}
+
+/* hover work  */
+
+.contact_box::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    background-color: #3849dc;
+    border-radius: 80px 80px;
+    bottom: 0; 
+    right: 0;
+    transition: 1s;
+    z-index: -1;
+}
+
+.contact_box:hover:before{
+    height: 100%;    
+    top: 0; 
+}
+
+
+/* divthree work  */
+
+.footerdivthree{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-bottom: 5%; */
+}
+/* time work  */
+
+.time{
+    color: #fff;
+    padding-left: 20%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+}
+
+.time h4{
+    font-weight: 300;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+
+/* Social media  */
+
+.socialMedia{
+    padding-bottom: 10px;
+    position: relative;
+    bottom: 20px;
+}
+.socialMedia h4{
+    font-weight: 300;
+    font-size: 13px;
+    color: #fff;
+    position: relative;
+    bottom: 10px;
+}
+.socialMedia ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-right: 80px;
+}
+
+.socialMedia ul li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.socialMedia ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.socialMedia ul li a:hover{
+    text-decoration: underline;
+}
+
+
+/* for media Quary 446px */
+.forMediaQuary446px{
+    display: none;
+}

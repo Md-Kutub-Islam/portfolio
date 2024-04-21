@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #181717;
+}
+/* Header work  */
+/* Header One work  */
+
+header .headerOne{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 30px;
+}
+
+header .headerOne h1{
+    color: #ffff;
+    font-size:x-large;
+    font-weight: 500;
+    padding-left: 60px;
+}
+
+header .headerOne ul{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 40px;
+    padding-right: 50px;
+}
+
+header .headerOne ul li{
+    list-style-type: none;
+    cursor: pointer;
+}
+
+header .headerOne ul li a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.navbar li{
+    transition:  0.3s;
+}
+
+.navbar li:hover{
+    transform: translate(10px);
+}
+
+.navbar li a:hover{
+    text-transform:uppercase;
+    color: #a7a9ab;
+}
+
+/* Bars work  */
+#divBars{
+    display: none;
+    margin-right: 2%;
+    position: relative;
+    background-color: #a7a9ab;
+    padding: 30px 30px;
+    border-radius: 100%;
+    overflow: hidden;
+    z-index: 1;
+    transition: 1s;
+}
+.fa-bars {
+    color: #181717;
+}
+#divBars::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    background-color: #3849dc;
+    border-radius: 100%;
+    bottom: 0; 
+    right: 0;
+    transition: 1s;
+    z-index: -1;
+}
+#divBars:hover:before{
+    height: 100%;    
+    top: 0;   
+}
+
+/* media Quaey image */
+img[alt="listImg"]{
+    display: none;
+}
+header .headerOne .navbar ul .fa-times{
+    display: none;
+}
+
+
+/* Section Work  */
+
+section .content .one{
+    display: flex;
+    align-items: center;
+}
+section .content .ha{
+    margin-top: 8%;
+    margin-left: 15%;
+    margin-bottom: 4%;
+    color: #ffff;
+    font-size: 3rem;
+    width: 100%;
+}
+
+section .content img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    position: absolute;
+    right: 25%;
+
+}
+section .about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    padding-top: 30px;
+    padding-bottom: 32px;
+}
+
+
+/* about work  */
+
+.about h1{
+    font-size: 2rem;
+    color: #a7a9ab;
+}
+
+.about ul li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.about h4{
+    padding-bottom: 6px;
+    color: #ffff;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 15px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.about p{
+    color: #a7a9ab;
+}
+
+
+
+/* Footer section work */
+
+footer{
+    background-color: #181717;
+    /* height: 100%; */
+}
+
+
+.footerdivOne{
+    /* background-color: #fff; */
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #333232;
+    padding-top: 2%;
+}
+.footerContent{
+    display: inline-flex;
+    align-items: center;
+    width: 70%;
+    padding-bottom: 5%;
+}
+.footerContent img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    position: relative;
+    left: 100px;
+}
+.footerContent h1{
+    padding-top: 75px;
+    font-size: 3.5rem;
+    color: #fff;
+    width: 100%;
+}
+
+.footerContent h1 span{
+    padding-left: 15%;   
+}
+
+#getInTouch{
+    position: absolute;
+    margin-top: 60px;
+    right: 22%;
+    background-color: #3849dc;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 80px 45px;
+    border-radius: 200px 200px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: #fff;
+    transition: 1s;
+    overflow: hidden;
+    border-color: #181717;
+    z-index: 1;
+}
+/* #getInTouch a{
+    text-decoration: none;
+    align-items: center;
+    font-size: 15px;
+    color: #fff;
+} */
+
+/* Hover Work  */
+
+/* #getInTouch::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    background-color: #181717;
+    border-color: #181717;
+    border-radius: 200px 200px;
+    bottom: 0; 
+    right: 0;
+    transition: 1s;
+    z-index: -1;
+}
+
+
+#getInTouch:hover::before{
+    height: 100%;    
+    top: 0; 
+} */
+
+#getInTouch::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    background-color: #181717;
+    border-radius: 200px 200px;
+    bottom: 0; 
+    right: 0;
+    transition: 1s;
+    z-index: -1;
+}
+
+
+#getInTouch:hover::before{
+    height: 100%;    
+    top: 0; 
+}
+
+/* contact work  */
+
+.contact{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 30px;
+    margin-left: 13%;
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+
+.contact_box{
+    width: auto;
+    height: auto;
+    position: relative;
+    z-index: 1;
+    border: 1px solid #333232;
+    padding: 25px 55px;
+    border-radius: 80px 80px;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: transparent;
+    transition: 1s;
+}
+
+.contact_box h3{
+    color: #fff;
+    font-weight: 400px;
+    transition: 1.5s;
+}
+
+/* hover work  */
+
+.contact_box::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    background-color: #3849dc;
+    border-radius: 80px 80px;
+    bottom: 0; 
+    right: 0;
+    transition: 1s;
+    z-index: -1;
+}
+
+.contact_box:hover:before{
+    height: 100%;    
+    top: 0; 
+}
+
+
+/* divthree work  */
+
+.footerdivthree{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-bottom: 5%; */
+}
+/* time work  */
+
+.time{
+    color: #fff;
+    padding-left: 20%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+}
+
+.time h4{
+    font-weight: 300;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+
+/* Social media  */
+
+.socialMedia{
+    padding-bottom: 10px;
+    position: relative;
+    bottom: 20px;
+}
+.socialMedia h4{
+    font-weight: 300;
+    font-size: 13px;
+    color: #fff;
+    position: relative;
+    bottom: 10px;
+}
+.socialMedia ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-right: 80px;
+}
+
+.socialMedia ul li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.socialMedia ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.socialMedia ul li a:hover{
+    text-decoration: underline;
+}

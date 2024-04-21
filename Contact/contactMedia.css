@@ -1,0 +1,373 @@
+@media screen and (max-width: 1155px){
+    /* Header work  */
+    .headerTwo h1 {
+        padding-left: 15%;
+    }
+    .headerTwo img{
+        right: 10%;
+    }
+}
+
+@media screen and (max-width: 1080px){
+    /* Section form div  */
+    .formDiv {
+        width: 140%;
+        padding-left: 10%;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .headerTwo h1 {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 900px){
+    /* Section dorm div work  */
+    .formDiv {
+        width: 130%;
+    }
+    .formDiv div label {
+        font-size: 20px;
+    }
+    .formDiv input{
+        font-size: 18px;
+    }
+    .contact h2 {
+        font-size: 18px;
+    }
+    .social ul li a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 780px){
+    /* Header work  */
+    .headerTwo h1 {
+        font-size: 3.5rem;
+    }
+    .formDiv {
+        width: 138%;
+    }
+    /* Footer work  */
+    .footerdivthree {
+        margin-top: 25%;
+    }
+    .time {
+        font-size: 17px;
+    }
+    .socialMedia ul li a {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 721px){
+    /* Header work  */
+    header .headerOne ul li a {
+        font-size: 13px;
+    }
+    .headerTwo h1 {
+        font-size: 2.5rem;
+    }
+    .headerTwo img {
+        height: 80px;
+        width: 80px;
+    }
+    /* Section  */
+    .contactDetails {
+        position: absolute;
+        top: 35%;
+        left: 60px;
+    }
+    .form{
+        margin-top: 65%;
+        margin-right: 20%;
+    }
+    .formDiv {
+        padding-left: 0%;
+    }
+    .formbtn input {
+        left: 50%;
+    }
+    .formbtn {
+        width: 140%;
+    }
+
+    .time {
+        position: relative;
+        bottom: 30px;
+        left: 15%;
+        font-size: 13px;
+        width: 500%;
+    }
+    .time h4 {
+        font-weight: 300;
+        font-size: 11px;
+    }
+    .socialMedia h4 {
+        margin-left: 65%;
+    }
+    .socialMedia {
+        right: 8%;
+    }
+}
+
+@media screen and (max-width: 699px){
+    .time{
+        display: none;
+    }
+    .footerdivthree {
+        margin-left: 25%;
+    }
+    .socialMedia h4 {
+        margin-left: 30%;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 667px){
+    /* Header work  */
+        /* Navbar work  */
+        #divBars{
+            display: block;
+        }
+        #nav-menu{
+            flex-direction: column;
+            position: fixed;
+            /* padding: 30px; */
+            top: 0;
+            right: -100%;
+            border-radius: 500px 0px 0px 500px;
+            background-color: black;
+            width: 50%;
+            height: 70%;
+            padding: 1.5rem 0;
+            z-index: 1;
+            transition: 1s;
+            overflow: hidden;
+        }
+        #nav-menu::before{
+            content: " ";
+            position: absolute;
+            width: 0;
+            height: 100%;
+            background-color: #3849dc;
+            border-radius: 500px 0px 0px 500px;
+            bottom: 0; 
+            right: 0;
+            transition: 1s;
+            z-index: -1;
+        }
+        #nav-menu:hover:before{
+            width: 100%;
+            top: 0;
+        }
+        img[alt="listImg"]{
+            display: block;
+            width: 100px;
+            height: 100px;
+            border-radius: 100px;
+        }
+    
+        header .headerOne .navbar ul .fa-times{
+            display: block;
+            color: #a7a9ab;
+            font-size: x-large;
+        }
+        header .headerOne ul li a{
+            color: #a7a9ab;
+            font-size: 17px;
+        }
+        /* Footer work  */
+        .footerdivthree {
+            margin-left: 20%;
+        }
+}
+
+
+@media screen and (max-width: 545px){
+    /* Header work  */
+    #divBars {
+        margin-right: 1%;
+    }
+    .headerTwo h1 {
+        font-size: 2rem;
+    }
+    .headerTwo img {
+        height: 70px;
+        width: 70px;
+    }
+    header .headerOne h1 {
+        padding-left: 40px;
+    }
+    /* Section form  */
+    .form {
+        margin-top: 80%;
+        margin-right: 15%;
+    }
+    .formDiv div label {
+        font-size: 16px;
+    }
+    .formDiv input {
+        font-size: 15px;
+    }
+    /* Footer work  */
+    .socialMedia {
+        padding-top: 50px;
+        right: 11%;
+    }
+}
+
+@media screen and (max-width: 481px){
+    html,body{
+        width: 100%;
+        /* height: 100%; */
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    /* Header work  */
+    #divBars {
+        padding: 20px 25px;
+        margin-right: 3%;
+    }
+    .fa-2xl {
+        font-size: 20px;
+    }
+    /* Footer work  */
+    .formbtn input {
+        padding: 55px 40px;
+        bottom: 70px
+    }
+    .headerTwo img {
+        right: 3%;
+    }
+    /* Contact details  */
+    .contactDetails {
+        top: 30%;
+    }
+    .contact h2 {
+        font-size: 15px;
+    }
+    .social ul li a {
+        font-size: 13px;
+    }
+    /* Form div  */
+    .formDiv {
+        width: 120%;
+    }
+    .formbtn {
+        width: 120%;
+    }
+    /* Footer work  */
+    .socialMedia ul li a {
+        font-size: 15px;
+    }
+    .socialMedia h4 {
+        font-size: 13px;
+    }
+    .socialMedia{
+        right: 14%;
+    }
+}
+
+@media screen and (max-width: 430px){
+    /* Header work  */
+    header .headerOne h1 {
+        padding-left: 30px;
+    }
+    .headerTwo h1 {
+        font-size: 1.5rem;
+        padding-top: 50px;
+    }
+    .headerTwo img {
+        height: 50px;
+        width: 50px;
+        right: 15%;
+        top: 15%;
+    }
+    /* contact details work  */
+    .contactDetails {
+        top: 26%;
+    }
+    /* Footer work  */
+    .socialMedia ul li a {
+        font-size: 13px;
+    }
+    /* form div work  */
+    .form {
+        margin-top: 90%;
+    }
+    .formDiv div label {
+        font-size: 13px;
+    }
+    .formDiv input {
+        font-size: 13px;
+    }
+}
+
+/* Iphone XR */
+@media screen and (max-width: 415px){
+    /* Header work  */
+    .headerTwo img {
+        right: 10%;
+        top: 20%;
+    }
+    /* Contact details  */
+    .contactDetails {
+        top: 34%;
+    }
+}
+
+@media screen and (max-width: 402px){
+    .headerTwo img {
+        top: 25%;
+    }
+}
+
+/* Iphone 12pro */
+@media screen and (max-width: 391px){
+    .socialMedia {
+        right: 17%;
+    }
+}
+
+@media screen and (max-width: 381px){
+    /* form div work  */
+    .form {
+        margin-top: 100%;
+    }
+    /* Footer work  */
+    .socialMedia ul {
+        gap: 25px;
+    }
+}
+
+/* Iphone SE  */
+@media screen and (max-width: 376px){
+    /* Header work  */
+    .headerTwo img {
+        right: 8%;
+        top: 28%;
+    }
+    /* contact details work  */
+    .contactDetails {
+        top: 43%;
+    }
+}
+
+
+/* Samsung s8+  */
+@media screen and (max-width: 361px){
+    /* Header work  */
+    .headerTwo h1 {
+        padding-top: 35px;
+    }
+    .headerTwo img {
+        top: 23%;
+    }
+    /* Contact details  */
+    .contactDetails {
+        top: 40%;
+    }
+}

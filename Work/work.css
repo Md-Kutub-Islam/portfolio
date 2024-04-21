@@ -1,0 +1,641 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #fffcfc;
+}
+
+/* Header work  */
+/* Header One work  */
+
+header .headerOne{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 30px;
+}
+
+header .headerOne h1{
+    color: #181717;
+    font-size:x-large;
+    font-weight: 600;
+    padding-left: 60px;
+}
+
+header .headerOne ul{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 40px;
+    padding-right: 50px;
+}
+
+header .headerOne ul li{
+    list-style-type: none;
+    cursor: pointer;
+}
+
+header .headerOne ul li a{
+    text-decoration: none;
+    color: #181717;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.navbar li{
+    transition:  0.3s;
+}
+
+.navbar li:hover{
+    transform: translate(10px);
+}
+
+.navbar li a:hover{
+    text-transform:uppercase;
+    color: #a7a9ab;
+}
+
+/* Bars work  */
+#divBars{
+    display: none;
+    margin-right: 2%;
+    position: relative;
+    background-color: #181717;
+    padding: 30px 30px;
+    border-radius: 100%;
+    overflow: hidden;
+    z-index: 1;
+    transition: 1s;
+}
+.fa-bars {
+    color: #a7a9ab;
+}
+#divBars::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    background-color: #3849dc;
+    border-radius: 100%;
+    bottom: 0; 
+    right: 0;
+    transition: 1s;
+    z-index: -1;
+}
+#divBars:hover:before{
+    height: 100%;    
+    top: 0;   
+}
+
+/* media Quaey image */
+img[alt="listImg"]{
+    display: none;
+}
+header .headerOne .navbar ul .fa-times{
+    display: none;
+}
+
+/* Header Div Two Work  */
+
+.headerTwo .one{
+    display: flex;
+    align-items: center;
+    gap: 40%;
+    justify-content: center;
+}
+.headerTwo .one .ha{
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-bottom: 4%;
+    color: #181717;
+    font-size: 5rem;
+    width: 100%;
+}
+
+.headerTwo .one img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    position: absolute;
+    right: 20%;
+
+}
+
+
+/* section work  */
+section{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+/* Div one work  */
+
+.sectionDiv .main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 5%;
+}
+
+.sectionDiv .main .one{
+    background-color: #181717;
+    padding: 120px 50px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.sectionDiv .main .two{
+    background-color: #a7a9ab;
+    padding: 120px 50px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.sectionDiv .main .three{
+    background-color: #a7a9ab;
+    padding: 120px 50px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.sectionDiv .main .four{
+    background-color: #181717;
+    padding: 120px 50px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.sectionDiv img[alt="img1"]{
+    /* position: absolute;
+    top: 75px;
+    left: 12%; */
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.sectionDiv .main h1{
+    color: #181717;
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.sectionDiv .main h4{
+    color: #181717;
+    font-weight: 400;
+    margin-top: 10px;
+    display: inline-block;
+}
+.sectionDiv .main span{
+    margin-left: 60%;
+}
+
+/* Invisible button work  */
+/* Invisible Button one work  */
+
+#invisibleBtnOne{
+    color: #fff;
+    text-decoration: none;
+    background-color: #3849dc;
+    padding: 70px 65px;
+    border-radius: 200px;
+    position: absolute;
+    /* margin-bottom: 100%; */
+    margin-top: -17%;
+    left: 21%;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 1s linear;
+    z-index: 1;
+    display: none;
+}
+
+/* Hover work  */
+
+#invisibleBtnOne::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    background-color: #3a46b6;
+    border-radius: 200px;
+    bottom: 0; 
+    right: 0;
+    transition: 1s;
+    z-index: -1;
+}
+
+#invisibleBtnOne:hover:before{
+    height: 100%;    
+    top: 0; 
+}
+
+/* Invisible Button Two work  */
+
+#invisibleBtnTwo{
+    color: #fff;
+    text-decoration: none;
+    background-color: #3849dc;
+    padding: 70px 65px;
+    border-radius: 200px;
+    position: absolute;
+    margin-top: -17%;
+    right: 22%;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 1s linear;
+    z-index: 1;
+    display: none;
+}
+
+
+/* Hover work  */
+
+#invisibleBtnTwo::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    background-color: #3a46b6;
+    border-radius: 200px;
+    bottom: 0; 
+    right: 0;
+    transition: 1s;
+    z-index: -1;
+}
+
+#invisibleBtnTwo:hover:before{
+    height: 100%;    
+    top: 0; 
+}
+
+/* Invisible button three work  */
+
+#invisibleBtnThree{
+    color: #fff;
+    text-decoration: none;
+    background-color: #3849dc;
+    padding: 70px 65px;
+    border-radius: 200px;
+    position: absolute;
+    margin-top: -17%;
+    left:23%;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 1s linear;
+    z-index: 1;
+    display: none;
+}
+
+/* Hover work  */
+
+#invisibleBtnThree::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    background-color: #3a46b6;
+    border-radius: 200px;
+    bottom: 0; 
+    right: 0;
+    transition: 1s;
+    z-index: -1;
+}
+
+#invisibleBtnThree:hover:before{
+    height: 100%;    
+    top: 0; 
+}
+
+/* Invisible Button Four work  */
+
+#invisibleBtnFour{
+    color: #fff;
+    text-decoration: none;
+    background-color: #3849dc;
+    padding: 70px 65px;
+    border-radius: 200px;
+    position: absolute;
+    margin-top: -17%;
+    right:21%;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 1s linear;
+    z-index: 1;
+    display: none;
+}
+
+
+/* Hover work  */
+
+#invisibleBtnFour::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    background-color: #3a46b6;
+    border-radius: 200px;
+    bottom: 0; 
+    right: 0;
+    transition: 1s;
+    z-index: -1;
+}
+
+#invisibleBtnFour:hover:before{
+    height: 100%;    
+    top: 0; 
+}
+
+
+/* Invisible button Five work  */
+
+#invisibleBtnFive{
+    color: #fff;
+    text-decoration: none;
+    background-color: #3849dc;
+    padding: 70px 65px;
+    border-radius: 200px;
+    position: absolute;
+    margin-top: -17%;
+    left:23%;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 1s linear;
+    z-index: 1;
+    display: none;
+}
+
+/* Hover work  */
+
+#invisibleBtnFive::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    background-color: #3a46b6;
+    border-radius: 200px;
+    bottom: 0; 
+    right: 0;
+    transition: 1s;
+    z-index: -1;
+}
+
+#invisibleBtnFive:hover:before{
+    height: 100%;    
+    top: 0; 
+}
+
+
+/* Invisible Button Four work  */
+
+#invisibleBtnSix{
+    color: #fff;
+    text-decoration: none;
+    background-color: #3849dc;
+    padding: 70px 65px;
+    border-radius: 200px;
+    position: absolute;
+    margin-top: -17%;
+    right:23%;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 1s linear;
+    z-index: 1;
+    display: none;
+}
+
+
+/* Hover work  */
+
+#invisibleBtnSix::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    background-color: #3a46b6;
+    border-radius: 200px;
+    bottom: 0; 
+    right: 0;
+    transition: 1s;
+    z-index: -1;
+}
+
+#invisibleBtnSix:hover:before{
+    height: 100%;    
+    top: 0; 
+}
+
+/* Footer section work */
+
+footer{
+    background-color: #181717;
+    /* padding-top: 5%; */
+    /* width: 100vw; */
+    height: 100%;
+}
+
+
+.footerdivOne{
+    /* background-color: #fff; */
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #333232;
+    padding-top: 2%;
+}
+.footerContent{
+    display: inline-flex;
+    align-items: center;
+    width: 70%;
+    padding-bottom: 5%;
+}
+.footerContent img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    position: relative;
+    left: 100px;
+}
+.footerContent h1{
+    padding-top: 75px;
+    font-size: 3.5rem;
+    color: #fff;
+    width: 100%;
+}
+
+.footerContent h1 span{
+    padding-left: 15%;   
+}
+
+#getInTouch{
+    position: absolute;
+    right: 22%;
+    margin-top: 70px;
+    background-color: #3849dc;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 80px 45px;
+    border-radius: 200px 200px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: #fff;
+    transition: 1s;
+    overflow: hidden;
+    border-color: #181717;
+    z-index: 1;
+}
+/* #getInTouch a{
+    text-decoration: none;
+    align-items: center;
+    font-size: 15px;
+    color: #fff;
+} */
+
+/* Hover Work  */
+
+#getInTouch::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    background-color: #181717;
+    border-radius: 200px 200px;
+    bottom: 0; 
+    right: 0;
+    transition: 1s;
+    z-index: -1;
+}
+
+
+#getInTouch:hover::before{
+    height: 100%;    
+    top: 0; 
+}
+
+/* contact work  */
+
+.contact{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 30px;
+    margin-left: 13%;
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+
+.contact_box{
+    width: auto;
+    height: auto;
+    position: relative;
+    z-index: 1;
+    border: 1px solid #333232;
+    padding: 25px 55px;
+    border-radius: 80px 80px;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: transparent;
+    transition: 1s;
+}
+
+.contact_box h3{
+    color: #fff;
+    font-weight: 400px;
+    transition: 1.5s;
+}
+
+/* hover work  */
+
+.contact_box::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    background-color: #3849dc;
+    border-radius: 80px 80px;
+    bottom: 0; 
+    right: 0;
+    transition: 1s;
+    z-index: -1;
+}
+
+.contact_box:hover:before{
+    height: 100%;    
+    top: 0; 
+}
+
+
+/* divthree work  */
+
+.footerdivthree{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-bottom: 5%; */
+}
+/* time work  */
+
+.time{
+    color: #fff;
+    padding-left: 20%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+}
+
+.time h4{
+    font-weight: 300;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+
+/* Social media  */
+
+.socialMedia{
+    padding-bottom: 10px;
+    position: relative;
+    bottom: 20px;
+}
+.socialMedia h4{
+    font-weight: 300;
+    font-size: 13px;
+    color: #fff;
+    position: relative;
+    bottom: 10px;
+}
+.socialMedia ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-right: 80px;
+}
+
+.socialMedia ul li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.socialMedia ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.socialMedia ul li a:hover{
+    text-decoration: underline;
+}

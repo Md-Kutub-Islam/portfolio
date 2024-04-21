@@ -1,0 +1,536 @@
+@media screen and (max-width: 1261px){
+    /* Section work  */
+    section .content img {
+        right: 18%;
+    }
+
+    /* Footer work  */
+    .footerContent img {
+        left: 90px;
+    }
+    #getInTouch {
+        right: 15%;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    /* SEction work  */
+    section .content img {
+        right: 15%;
+    }
+    /* Footer work  */
+    .footerContent img {
+        height: 80px;
+        width: 80px;
+    }
+    .footerContent h1 {
+        font-size: 3rem;
+    }
+    .footerContent h1 span {
+        padding-left: 16%;
+    }
+    #getInTouch {
+        right: 11%;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 1040px){
+    /* Section work  */
+    section .content .ha {
+        font-size: 2.7rem;
+    }
+    section .content img {
+        right: 8%;
+    }
+    section .about {
+        gap: 5%;
+    }
+
+    /* Footer work  */
+    .footerContent h1 span {
+        padding-left: 18%;
+    }
+    #getInTouch {
+        margin-top: 30px;
+    }
+    .contact {
+        margin-top: 12%;
+        margin-bottom: 14%;
+    }
+}
+
+@media screen and (max-width: 973px){
+    /* Section work  */
+    section .about {
+        gap: 4%;
+    }
+    /* Footer work  */
+    .footerContent h1 {
+        font-size: 2.5rem;
+    }
+    .footerContent img {
+        height: 60px;
+        width: 60px;
+    }
+    .footerContent h1 {
+        padding-bottom: 15px;
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 895px){
+    /* Section work  */
+    section .content .one {
+        margin-top: 5%;
+    }
+    section .content .ha {
+        font-size: 3rem;
+    }
+    .about h1 {
+        font-size: 1.5rem;
+    }
+    .about h4 {
+        font-size: 15px;
+    }
+    .about p {
+        font-size: 12px;
+    }
+    section .about {
+        margin-bottom: 5%;
+        margin-top: 10%;
+        gap: 5%;
+    }
+    /* Footer work  */
+    .footerContent img {
+        height: 55px;
+        width: 55px;
+    }
+    .footerContent h1 {
+        padding-bottom: 15px;
+        padding-left: 15px;
+        font-size: 2.2rem;
+    }
+    .contact {
+        margin-top: 14%;
+        margin-bottom: 15%;
+    }
+    section .content .ha {
+        font-size: 2.5rem;
+    }
+}
+
+/* Ipad air  */
+@media screen and (max-width: 821px){
+    section .content .ha {
+        font-size: 2rem;
+    }
+    /* Footer work  */
+    #getInTouch {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    /* Section work  */
+    section .content .ha {
+        font-size: 2rem;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    section .content img {
+        height: 90px;
+        width: 90px;
+    }
+    /* Footer work  */
+    .footerContent h1 {
+        padding-left: 30px;
+        padding-bottom: 25px;
+        font-size: 2rem;
+    }
+    .contact {
+        margin-top: 18%;
+        margin-bottom: 17%;
+        margin-left: 6%;
+    }
+    .time {
+        font-size: 17px;
+    }
+    .socialMedia ul li a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 721px){
+    /* Section work  */
+    .about h1 {
+        font-size: 20px;
+    }
+    .about h4 {
+        font-size: 12px;
+    }
+    .about p {
+        font-size: 10px;
+    }
+    section .content .ha {
+        font-size: 1.9rem;
+        padding-top: 60px;
+    }
+    /* Footer work  */
+    .footerContent {
+        width: 100%;
+        padding-bottom: 7%;
+    }
+    .footerContent h1 {
+        padding-left: 40px;
+    }
+    .footerContent h1 span {
+        padding-left: 14%;
+    }
+    .footerContent img {
+        left: 100px;
+    }
+    .contact{
+        flex-direction: column;
+        margin-left: -2%;
+    }
+    #numberh {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .time {
+        position: relative;
+        bottom: 30px;
+        left: 18%;
+        font-size: 15px;
+    }
+    .socialMedia h4 {
+        margin-left: 65%;
+    }
+    .socialMedia {
+        right: 11%;
+    }
+}
+
+@media screen and (max-width: 667px){
+    /* Header work  */
+        /* Navbar work  */
+        #divBars{
+            display: block;
+        }
+        #nav-menu{
+            flex-direction: column;
+            position: fixed;
+            /* padding: 30px; */
+            top: 0;
+            right: -100%;
+            border-radius: 500px 0px 0px 500px;
+            background-color: black;
+            width: 50%;
+            height: 70%;
+            padding: 1.5rem 0;
+            z-index: 1;
+            transition: 1s;
+            overflow: hidden;
+        }
+        #nav-menu::before{
+            content: " ";
+            position: absolute;
+            width: 0;
+            height: 100%;
+            background-color: #3849dc;
+            border-radius: 500px 0px 0px 500px;
+            bottom: 0; 
+            right: 0;
+            transition: 1s;
+            z-index: -1;
+        }
+        #nav-menu:hover:before{
+            width: 100%;
+            top: 0;
+        }
+        img[alt="listImg"]{
+            display: block;
+            width: 100px;
+            height: 100px;
+            border-radius: 100px;
+        }
+    
+        header .headerOne .navbar ul .fa-times{
+            display: block;
+            color: #a7a9ab;
+            font-size: x-large;
+        }
+        header .headerOne ul li a{
+            color: #a7a9ab;
+        }
+        .headerTwo .one .ha {
+            font-size: 2.5rem;
+        }
+
+        section .content .ha {
+            font-size: 1.6rem;
+        }
+        /* Footer work  */
+        #getInTouch {
+            padding: 40px 18px;
+            font-size: 10px;
+            margin-top: 10%;
+            margin-right: 10%;
+        }
+        .time {
+            display: none;
+        }
+        .socialMedia {
+            right: -20%;
+        }
+        .socialMedia h4 {
+            margin-left: 30%;
+            font-size: 18px;
+        }
+}
+
+
+@media screen and (max-width: 585px){
+    html,body{
+        width: 100%;
+        /* height: 100%; */
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    /* Section work  */
+    section .content .one {
+        margin-top: 0%;
+    }
+    section .content .ha {
+        font-size: 1.3rem;
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+    section .content img {
+        height: 80px;
+        width: 80px;
+    }
+    section .about{
+        display: grid;
+        gap: 5%;
+        justify-content: center;
+        padding-bottom: 100px;
+    }
+    .about h1 {
+        font-size: 30px;
+    }
+    .about h4 {
+        font-size: 20px;
+    }
+    .about p {
+        font-size: 17px;
+        margin-bottom: 10%;
+    }
+    .Skill{
+        border-bottom: 1px solid #ae9c9c;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    .experiance{
+        border-bottom: 1px solid #ae9c9c;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    .education{
+        border-bottom: 1px solid #ae9c9c;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    
+    /* Footer work  */
+    .footerContent img {
+        left: 90px;
+    }
+    .socialMedia {
+        right: -15%;
+    }
+}
+
+@media screen and (max-width: 520px){
+    /* Section Work  */
+    section .content img{
+        height: 50px;
+        width: 50px;
+        /* top: 16%; */
+        /* right: 15%; */
+    }
+    section .content .ha {
+        font-size: 1.2rem;
+    }
+    section .about{
+        padding-left: 50px;
+    }
+    .Skill{
+        padding-left: 100px;
+        padding-right: 0;
+        width: 60%;
+    }
+    .experiance{
+        padding-left: 100px;
+        padding-right: 0;
+        width: 60%;
+    }
+    .education{
+        padding-left: 100px;
+        padding-right: 0;
+        width: 60%;
+    }
+    
+    /* Footer work  */
+    .footerContent img {
+        left: 70px;
+        height: 40px;
+        width: 50px;
+    }
+    .footerContent h1 {
+        padding-left: 30px;
+        padding-bottom: 40px;
+        font-size: 25px;
+    }
+    #getInTouch {
+        margin-top: 12%;
+    }
+    .socialMedia {
+        right: -12%;
+    }
+}
+
+@media screen and (max-width: 481px){
+    /* Header work  */
+    #divBars {
+        padding: 20px 25px;
+    }
+    .fa-2xl {
+        font-size: 20px;
+    }
+    header .headerOne h1 {
+        padding-left: 30px;
+    }
+    /* Section work  */
+    section .content .ha {
+        padding-left: 0px;
+    }
+    section .about {
+        padding-left: 50px;
+    }
+    .Skill {
+        padding-left: 50px;
+        padding-right: 10px;
+        width: 70%;
+    }
+    .experiance{
+        padding-left: 50px;
+        padding-right: 10px;
+        width: 70%;
+    }
+    .education{
+        padding-left: 50px;
+        padding-right: 10px;
+        width: 70%;
+    }
+    .socialMedia {
+        right: -10%;
+    }
+    .socialMedia h4 {
+        font-size: 13px;
+    }
+    .socialMedia ul li a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 435px){
+    /* Section work  */
+    section .content img {
+        right: 5%;
+    }
+    /* Footer work  */
+    .footerContent h1 {
+        padding-left: 10px;
+    }
+    .footerContent img {
+        left: 50px;
+    }
+    .socialMedia {
+        right: -8%;
+    }
+    .socialMedia ul li a {
+        font-size: 13px;
+    }
+    #getInTouch {
+        margin-top: 14%;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+    header .headerOne h1 {
+        padding-left: 20px;
+    } 
+    section .content .ha {
+        margin-left: 8%;
+        font-size: 1rem;
+    }
+    .Skill {
+        padding-left: 40px;
+    }
+    .experiance{
+        padding-left: 40px;
+    }
+    .education{
+        padding-left: 40px;
+    }
+    .footerContent h1 {
+        padding-left: 2px;
+    }
+    .footerContent img {
+        left: 40px;
+    }
+    #getInTouch {
+        margin-top: 15%;
+    }
+}
+
+@media screen and (max-width: 381px){
+    /* Section work  */
+    section .content .ha {
+        font-size: 1rem;
+    }
+    /* Footer work  */
+    .socialMedia ul {
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width: 345px){
+    .footerContent h1 {
+        padding-left: 0px;
+        font-size: 23px;
+    }
+    .footerContent img {
+        left: 30px;
+    }
+}
+
+/* Iphone SE */
+@media screen and (max-width: 376px){
+    /* Footer work  */
+    .socialMedia {
+        right: -10%;
+    }
+}
+
+/* Iphone 12 Pro */
+@media screen and (max-width: 391px){
+    /* Footer work  */
+    .socialMedia {
+        right: -6%;
+    }
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Google Fount Link  -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,400&display=swap" rel="stylesheet">
+     <!-- Link Fount Awesome  -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <!-- Link CSS  -->
+     <link rel="stylesheet" href="./contact.css">
+     <!-- Link Media CSS  -->
+     <link rel="stylesheet" href="./contactMedia.css">
+    <title>Contact</title>
+</head>
+<body>
+    
+    <!-- Header of the page  -->
+
+    <header>
+        <div class="headerOne">
+            <h1>MD Kutub</h1>
+            <nav class="navbar nav">
+                <ul id="nav-menu">
+                    <i  class="fas fa-times" id="nav_close"></i>
+                    <img src="../image/kutub image .jpg" alt="listImg">
+                    <li><a href="/index.html">Home</a></li>
+                    <li data-value="-2"><a href="/Work/work.html">Work</a></li>
+                    <li data-value="6"><a href="/About/about.html">About</a></li>
+                    <li data-value="4"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div id="divBars">
+                <i class="fa-sharp fa-solid fa-bars fa-2xl" id="nav-toggle"></i>
+            </div>
+        </div>
+
+        <div class="headerTwo">
+            <div class="one">
+                <h1><span>Start&lsquo;s Conection</span> <br> With Me</h1>
+            </div>
+            <div><img src="../image/kutub image .jpg" alt=""></div>
+        </div>
+    </header>
+
+    <!-- Section  -->
+
+    <section>
+        <div class="form">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="04e31e56-afc5-46e9-8c18-9b836919a47a">
+                <div class="formDiv">
+                    <div><label for="fname">What&lsquo;s Your name ?</label></div>
+                    <input type="text" id="fname" name="name" placeholder="John" required>
+                </div>
+
+                <div class="formDiv">
+                    <div><label for="Email">What&lsquo;s Your email ?</label></div>
+                    <input type="email" id="Email" name="eMail" placeholder="John@gmail.com required">
+                </div>
+
+                <div class="formDiv">
+                    <div><label for="org">What&lsquo;s the name of your organization ?</label></div>
+                    <input type="text" id="org" name="orga" placeholder="Name of the organization">
+                </div>
+
+                <div class="formDiv">
+                    <div><label for="ser">What&lsquo;s services are you loking for ?</label></div>
+                    <input type="text" id="ser" name="servi" placeholder="Services">
+                </div>
+
+                <div class="formDiv">
+                    <div><label for="msg">Your message ?</label></div>
+                    <input type="text" id="msg" name="msgs" placeholder="Massage">
+                </div>
+                
+                <div class="formbtn"><input type="submit" id="submitBtn" name="submit" value="Send it!"></div>
+            </form>
+        </div>
+        <div class="contactDetails">
+            <div class="contact">
+                <h5>CONTACT DETAILS</h5>
+
+                <h2 id="emailh">mdkutubislam09@gmail.com</h2>
+                <h2 id="numberh">+91 7864054349</h2>
+            </div>
+
+            <div class="social">
+                <h4>Social Media</h4>
+                <ul>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer  -->
+
+    <footer>
+        <div class="footerdivthree">
+            <div class="time">
+                <h4>Local Time</h4>
+                <span id="hours">00</span>
+                <span>:</span>
+                <span id="minutes">00</span>
+                <span>:</span>
+                <span id="seconds">00</span>
+                <!-- <span id="session">AM</span> -->
+            </div>
+            <div class="socialMedia">
+                <h4>Social Media</h4>
+                <ul>
+                    <li><a href="www.linkedin.com/in/md-kutub-islam-623916262">LinkedIn</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./contact.js"></script>
+</body>
+</html>
