@@ -7,8 +7,7 @@ This is my personal portfolio website showcasing my skills, projects, and contac
 - [Features](#features)
 - [Sections](#sections)
 - [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-- [License](#license)
+
 
 ## Demo
 [Link to Live Demo](#) https://md-kutub-islam.000webhostapp.com/
